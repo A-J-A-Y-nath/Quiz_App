@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(100deg,rgb(242, 120, 242),rgb(164, 73, 230));
+}
+#quiz{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(65deg,rgb(244, 179, 59),rgba(249, 249, 0, 0.598));
+    /* background-color: rgb(46, 39, 23); */
+    color: rgb(245, 245, 245);
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    
+    
+}
+#Question{
+    text-align: center;
+}
+.options{
+    margin: 10px 5px;
+    padding: 1rem;
+    border-style: groove;
+    border-color: rgb(204, 194, 194);
+    border-radius: 30%;
+    transition: 1s;
+}
+#next{
+    padding: 5px 5dvb;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
