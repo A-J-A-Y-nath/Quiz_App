@@ -5,7 +5,7 @@ body{
 #quiz{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(65deg,rgb(244, 179, 59),rgba(249, 249, 0, 0.598));
+    background-image: linear-gradient(65deg,rgb(23, 227, 142),rgba(154, 56, 207, 0.837));
     /* background-color: rgb(46, 39, 23); */
     color: rgb(245, 245, 245);
     margin: auto;
@@ -16,14 +16,20 @@ body{
 }
 #Question{
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    color: rgba(3, 3, 3, 0.858);
+    font-size: 3rem;
+
 }
 .options{
     margin: 10px 5px;
     padding: 1rem;
     border-style: groove;
     border-color: rgb(204, 194, 194);
-    border-radius: 30%;
+    border-radius: 15px 50px;
     transition: 1s;
+    font-size: 1.5rem;
 }
 #next{
     padding: 5px 5dvb;
