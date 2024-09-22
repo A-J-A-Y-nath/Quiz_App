@@ -30,5 +30,7 @@ body{
     display: block;
     margin: auto;
     margin-top: 1rem;
+    border-radius: 7px;
+    background-color: aqua;
     
 }
