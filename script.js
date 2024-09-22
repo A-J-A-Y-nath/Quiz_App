@@ -156,6 +156,19 @@ function ShowQuestion(){
     options[2].innerHTML = questions[QuestionNo].options[2];
     options[3].innerHTML = questions[QuestionNo].options[3];
 }
+container = document.querySelector("body");
+colorpicker = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"];
+function changecolor(){
+    
+let color = "#"
+for(i=0;i<6;i++){
+    random = Math.floor(Math.random()* colorpicker.length)
+    color = color + colorpicker[random];
+}
+container.style.background = color;
+}
+
+ setInterval(changecolor,2000);
 
 
 

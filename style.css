@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(100deg,rgb(242, 120, 242),rgb(164, 73, 230));
+    transition: background-color 2.5s;
 }
 #quiz{
     display: flex;
